@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"jquery-ui",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "jquery-ui",
+    "description": "api documentation for [jquery-ui (v1.12.1)](http://jqueryui.com) [![npm package](https://img.shields.io/npm/v/npmdoc-jquery-ui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jquery-ui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jquery-ui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jquery-ui)",
     "devDependencies": {
-        "jquery-ui": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "jquery-ui": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-jquery-ui",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-jquery-ui",
+    "keywords": [
+        "documentation",
+        "jquery-ui"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_jquery_ui.js",
+    "name": "npmdoc-jquery-ui",
+    "nameAlias": "npmdoc_jquery_ui",
+    "nameOriginal": "npmdoc-jquery-ui",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-jquery-ui"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
