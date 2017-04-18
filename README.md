@@ -1,9 +1,14 @@
-# api documentation for  [jquery-ui (v1.12.1)](http://jqueryui.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-jquery-ui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jquery-ui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jquery-ui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jquery-ui)
+# npmdoc-jquery-ui
+
+#### api documentation for  [jquery-ui (v1.12.1)](http://jqueryui.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-jquery-ui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jquery-ui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jquery-ui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jquery-ui)
+
 #### A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.
 
-[![NPM](https://nodei.co/npm/jquery-ui.png?downloads=true)](https://www.npmjs.com/package/jquery-ui)
+[![NPM](https://nodei.co/npm/jquery-ui.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jquery-ui)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-jquery-ui_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-jquery-ui/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jquery-ui/build/screenCapture.npmPackageListing.svg)
 
@@ -56,21 +61,17 @@
     "main": "ui/widget.js",
     "maintainers": [
         {
-            "name": "devongovett",
-            "email": "devongovett@gmail.com"
+            "name": "devongovett"
         },
         {
-            "name": "jzaefferer",
-            "email": "joern.zaefferer@gmail.com"
+            "name": "jzaefferer"
         },
         {
-            "name": "scott.gonzalez",
-            "email": "scott.gonzalez@gmail.com"
+            "name": "scott.gonzalez"
         }
     ],
     "name": "jquery-ui",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jquery/jquery-ui.git"
@@ -82,16 +83,6 @@
     "version": "1.12.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module jquery-ui](#apidoc.module.jquery-ui)
-
-
-
-# <a name="apidoc.module.jquery-ui"></a>[module jquery-ui](#apidoc.module.jquery-ui)
 
 
 
