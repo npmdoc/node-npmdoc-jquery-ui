@@ -1,6 +1,6 @@
 # npmdoc-jquery-ui
 
-#### api documentation for  [jquery-ui (v1.12.1)](http://jqueryui.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-jquery-ui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jquery-ui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jquery-ui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jquery-ui)
+#### basic api documentation for  [jquery-ui (v1.12.1)](http://jqueryui.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-jquery-ui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jquery-ui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jquery-ui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jquery-ui)
 
 #### A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.
 
@@ -80,7 +80,8 @@
         "test": "grunt"
     },
     "title": "jQuery UI",
-    "version": "1.12.1"
+    "version": "1.12.1",
+    "bin": {}
 }
 ```
 
